@@ -21,7 +21,7 @@
 <!-- Banner Image -->
 <p align="center">
   <a href="https://url.bwmxmd.online/Adams.gbv0odfp.jpg">
-    <img src="https://files.catbox.moe/c07f3s.jpeg" width="100%" height="auto">
+    <img src="https://url.bwmxmd.online/Adams.gbv0odfp.jpg" width="100%" height="auto">
   </a>
 </p>
 
@@ -83,7 +83,7 @@
 <!-- More Button -->
 <p align="center">
   <a href="https://bwmxmd.oneline" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/For%20more%2C%20use%20bwmxmd.oneline-00ffaa?style=for-the-badge&logo=internet-explorer&logoColor=white" width="340" height="50" alt="  For more tap here"/>
+    <img src="https://img.shields.io/badge/For%20more%2C%20Tap%20Here-00ffaa?style=for-the-badge&logo=internet-explorer&logoColor=white" width="340" height="50" alt="For more tap here"/>
   </a>
 </p>
 
