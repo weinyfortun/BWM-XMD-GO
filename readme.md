@@ -9,13 +9,9 @@
 
 <!-- Profile Card -->
 <p align="center">
-  <img src="https://url.bwmxmd.online/Adams.gbv0odfp.jpg" width="210" height="210" style="border-radius:50%; box-shadow:0 0 25px #00ffea;">
+  <img src="https://files.catbox.moe/c07f3s.jpeg" width="210" height="210" style="border-radius:50%; box-shadow:0 0 25px #00ffea;">
 </p>
 
-<!-- Neon Wave Divider -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Bwmxmd254/Bwmxmd254/main/assets/neonwave.svg" height="35" width="100%">
-</p>
 
 <!-- Quantum Pulse - Activity Animation -->
 <p align="center">
@@ -24,7 +20,7 @@
 
 <!-- Banner Image -->
 <p align="center">
-  <a href="https://files.catbox.moe/c07f3s.jpeg">
+  <a href="https://url.bwmxmd.online/Adams.gbv0odfp.jpg">
     <img src="https://files.catbox.moe/c07f3s.jpeg" width="100%" height="auto">
   </a>
 </p>
@@ -71,12 +67,7 @@
   <img src="https://img.shields.io/github/followers/Bwmxmd254?label=Followers&style=for-the-badge" alt="GitHub Followers"/>
   <img src="https://img.shields.io/github/stars/Bwmxmd254?label=GitHub+Stars&style=for-the-badge" alt="GitHub Stars"/>
 </p>
-<p align="center">
-  <!-- Alive video animation (replace link with your own if you want) -->
-  <img src="https://media.giphy.com/media/3oKIPwoeGErMmaI43C/giphy.gif" width="420" height="auto" alt="Repo Alive Animation"/>
-  <br>
-  <i>Always alive and pulsing with quantum energy!</i>
-</p>
+
 
 <!-- iPhone/Android Info -->
 <p align="center">
