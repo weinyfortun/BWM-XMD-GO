@@ -83,7 +83,7 @@
 <!-- More Button -->
 <p align="center">
   <a href="https://bwmxmd.oneline" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/For%20more%2C%20use%20bwmxmd.oneline-00ffaa?style=for-the-badge&logo=internet-explorer&logoColor=white" width="340" height="50" alt="More with bwmxmd.oneline"/>
+    <img src="https://img.shields.io/badge/For%20more%2C%20use%20bwmxmd.oneline-00ffaa?style=for-the-badge&logo=internet-explorer&logoColor=white" width="340" height="50" alt="  For more tap here"/>
   </a>
 </p>
 
