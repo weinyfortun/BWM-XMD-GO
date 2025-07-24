@@ -31,19 +31,12 @@
 
 <!-- Animated Quantum Tech Stack -->
 <h2 align="center">🧬 Quantum Tech Stack</h2>
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" title="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" width="40" height="40" title="Heroku"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/render/render-original.svg" width="40" height="40" title="Render"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/railway/railway-original.svg" width="40" height="40" title="Railway"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/whatsapp/whatsapp-plain.svg" width="40" height="40" title="WhatsApp Bot"/>
-</p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-Quantum_Green?style=for-the-badge&logo=node.js&logoColor=white&color=00ff99"/>
   <img src="https://img.shields.io/badge/Heroku-Quantum_Purple?style=for-the-badge&logo=heroku&logoColor=white&color=a259ff"/>
   <img src="https://img.shields.io/badge/Render-Quantum_Blue?style=for-the-badge&logo=render&logoColor=white&color=00bfff"/>
   <img src="https://img.shields.io/badge/Railway-Quantum_Dark?style=for-the-badge&logo=railway&logoColor=white&color=6c47ff"/>
-  <img src="https://img.shields.io/badge/WhatsApp-Bot?style=for-the-badge&logo=whatsapp&logoColor=white&color=25d366"/>
 </p>
 
 <!-- Animated Action Buttons -->
