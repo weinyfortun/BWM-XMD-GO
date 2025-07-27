@@ -422,7 +422,7 @@ module.exports = {
 let fichier = require.resolve(__filename);
 fs.watchFile(fichier, () => {
     fs.unwatchFile(fichier);
-    console.log(`mise à jour ${__filename}`);
+    console.log(`Updates ${__filename}`);
     delete require.cache[fichier];
     require(fichier);
 });
