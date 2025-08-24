@@ -77,7 +77,7 @@
     "imagemaker.js": "^2.0.4",
     "imgur": "^2.3.0",
     "instagram-url-direct": "^1.0.12",
-    "jimp": "^0.16.13",
+    "jimp": "^0.22.12",
     "javascript-obfuscator": "^4.1.0",
     "jpeg-js": "^0.4.4",
     "jsdom": "^22.1.0",
